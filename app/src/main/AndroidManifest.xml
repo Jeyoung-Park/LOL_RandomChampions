@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lol_randomchampions">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lol_icon1"
+        android:label="Random Champions"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Btn1Activity"></activity>
+        <activity android:name=".Btn5Activity"></activity>
+    </application>
+
+</manifest>

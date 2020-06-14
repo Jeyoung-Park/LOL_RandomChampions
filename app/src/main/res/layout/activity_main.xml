@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/lol_logo"></ImageView>
+
+    <Button
+        android:id="@+id/btn_OneChamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="20sp"
+        android:text="챔피언 하나 랜덤 선택"
+        android:textColor="#000000"
+        android:background="@drawable/button_edge_round"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_FiveChamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="20sp"
+        android:text="챔피언 다섯 개 랜덤 선택"
+        android:textColor="#000000"
+        android:background="@drawable/button_edge_round"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#999999"
+            android:gravity="right"
+            android:text="made by 안효준틀딱\nTEL: 010-2681-1999"
+            android:textSize="20dp"></TextView>
+    </RelativeLayout>
+</LinearLayout>
+
+<!--alignParentBottom을 이용해 텍스틑 아래 정렬 -> relativelayout에서 사용 ㄱㄴ-->
+<!--gravity="right"를 이용해 오른쪽 정렬-->

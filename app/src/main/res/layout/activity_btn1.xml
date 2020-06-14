@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lol_logo"></ImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ImageView_ChampImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/preparing_image"
+            android:layout_centerHorizontal="true"
+            ></ImageView>
+        <TextView
+            android:id="@+id/TextVIew_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="TextView"
+            android:textColor="#999999"
+            android:textSize="70dp"></TextView>
+        <ImageButton
+            android:id="@+id/btn_reset"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:focusableInTouchMode="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/imgbtn_states"
+        ></ImageButton>
+<!--        scaleType+"fitCenter"->가로세로의 비율을 맞추며 버튼의 경계에 맞게 조절-->
+<!--        android:adjustViewBounds: 이미지가 표현하고자 하는 레이아웃보다 클 때 비율유지여부-->
+    </RelativeLayout>
+
+</LinearLayout>
